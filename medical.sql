@@ -44,26 +44,17 @@ CREATE TABLE `blockchain` (
 
 INSERT INTO `blockchain` (`bill_no`, `medicine_name`, `dose`, `lot_number`, `price`, `quantity`, `total_price`) VALUES
 (141, 'hai', 2, 1, 1.8, 2, 3.6),
-(141, 'dhanu', 2, 2, 2.7, 2, 5.4),
-(1, 'dhanu', 2, 2, 2.7, 0, 0),
 (2, 'hai', 2, 1, 1.8, 3, 5.4),
 (2, 'hai', 2, 1, 1.8, 3, 5.4),
-(2, 'dhanu', 2, 2, 2.7, 3, 8.1),
-(12, 'dhanu', 2, 2, 2.7, 3, 8.1),
 (12, 'hai', 2, 1, 1.8, 3, 5.4),
-(12, 'dhanu', 2, 2, 2.7, 3, 8.1),
 (99, 'hai', 2, 1, 1.8, 100, 180),
 (99, 'hai', 2, 1, 1.8, 100, 180),
 (123, 'hai', 2, 1, 1.8, 1, 1.8),
-(123, 'dhanu', 2, 2, 2.7, 1, 2.7),
 (123, 'hai', 2, 1, 1.8, 1, 1.8),
 (99, 'hai', 2, 1, 1.8, 0, 0),
-(123, 'dhanu', 2, 2, 2.7, 1, 2.7),
 (35, 'Paracetamal', 1, 3, 1.35, 2, 2.7),
 (35, 'Paracetamal', 1, 3, 1.35, 2, 2.7),
 (35, 'hai', 2, 1, 1.8, 2, 3.6),
-(35, 'dhanu', 2, 2, 2.7, 2, 5.4),
-(912, 'dhanu', 2, 2, 2.7, 2, 5.4),
 (912, 'Paracetamal', 1, 3, 1.35, 2, 2.7),
 (44, 'ointment', 30, 4, 27, 1, 27),
 (444444, 'betnowyte', 3, 5, 45, 1, 45),
@@ -93,7 +84,6 @@ CREATE TABLE `customer` (
 INSERT INTO `customer` (`roll_no`, `name`, `bill_no`) VALUES
 (45, 'abishek', 12),
 (47, 'gowtham', 99),
-(212, 'nivya', 12),
 (1212, 'qwqwq', 191),
 (4444, 'hhhh', 444444),
 (156171, 'haiiiii', 44),
@@ -102,9 +92,7 @@ INSERT INTO `customer` (`roll_no`, `name`, `bill_no`) VALUES
 (1601007, 'dh', 151),
 (1601010, 'yeswa', 123),
 (1601014, 'anish', 181),
-(1601035, 'Dhanusuya', 141),
 (1601053, 'Hesen', 121),
-(1601058, 'Jency Saral', 353),
 (1601063, 'suvab', 9999),
 (1601111, 'aakash', 912),
 (16010353, 'Nivas', 1);
@@ -126,7 +114,7 @@ CREATE TABLE `login` (
 --
 
 INSERT INTO `login` (`id`, `username`, `password`) VALUES
-(1, 'dhanusuya', 'dhanusuya');
+(1, 'nivas', 'nivas');
 
 -- --------------------------------------------------------
 
